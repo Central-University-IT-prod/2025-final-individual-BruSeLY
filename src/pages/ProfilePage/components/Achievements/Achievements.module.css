@@ -1,0 +1,25 @@
+.achievementCard {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.achievementCard:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+  border: 1px solid #e0f7fa;
+  background-color: #f0f9ff; 
+}
+
+
+.achievementsButton {
+  position: absolute;
+  bottom: 50%;
+  left: -14%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

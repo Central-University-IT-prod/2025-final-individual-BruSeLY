@@ -1,0 +1,12 @@
+
+.saveModalActivity {
+  display: flex;
+  gap: 4px;
+}
+
+@media (max-width: 768px) {
+  .saveModalActivity {
+    display: flex;
+    flex-direction: column;
+  }
+}

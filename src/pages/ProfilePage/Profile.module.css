@@ -1,0 +1,9 @@
+.avatarView {
+  background-color: transparent;
+  height: 100vh;
+  z-index: 1;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 7vh;
+}

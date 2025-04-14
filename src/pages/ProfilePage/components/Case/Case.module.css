@@ -1,0 +1,6 @@
+.caseContainer {
+  position: absolute;
+  top: 20px;
+  left: 6.5%;
+  z-index: 1000;
+}

@@ -1,0 +1,76 @@
+.title {
+  font-weight: 900;
+  position: relative;
+  font-size: 28px;
+}
+
+
+.actions {
+  width: 100%;
+ 
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+  border-radius: 16px;
+
+  backdrop-filter: blur(12px);
+}
+
+
+.addButton {
+  transition: all 0.3s ease;
+  transform: scale(1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.addButton:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+
+@media (max-width: 1050px) {
+  .actions {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.75rem;
+    padding: 0 1rem;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 12px;
+    margin: 0 16px;
+  }
+  
+  
+  .grid {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .addButton {
+    width: 100%;
+    align-self: flex-start;
+  }
+}
+
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

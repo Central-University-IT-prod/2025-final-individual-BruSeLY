@@ -1,0 +1,24 @@
+.filters {
+  display: flex;
+  flex-grow: 1;
+  gap: 1rem;
+}
+
+.selectInput {
+  border-radius: 8px;
+  border: 1px solid rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+  background: rgba(255,255,255,0.8);
+}
+
+.selectInput:hover {
+  border-color: #4cc9f0;
+  box-shadow: 0 2px 8px rgba(76, 201, 240, 0.2);
+}
+
+@media (max-width: 768px) {
+  .filters {
+    width: 100%;
+    flex-direction: column;
+  }
+}

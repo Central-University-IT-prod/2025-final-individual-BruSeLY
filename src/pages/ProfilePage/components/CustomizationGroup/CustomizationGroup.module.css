@@ -1,0 +1,41 @@
+.customizationGroup {
+  margin-right: 12px;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.groupItems {
+  padding-bottom: 32px;
+  padding: 6px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.removeButtonContainer {
+  align-content: center;
+}
+
+.removeButton {
+  position: absolute;
+  background: #ff6b6b;
+  color: white;
+  border-radius: 50%;
+  z-index: 2; 
+}
+
+@media (max-width: 768px) {
+  .customizationGroup {
+    margin-right: 0;
+    margin-bottom: 8px;
+    padding: 6px;
+  }
+
+  .groupItems {
+    gap: 6px;
+    padding: 4px;
+    margin-bottom: 42px;
+  }
+}

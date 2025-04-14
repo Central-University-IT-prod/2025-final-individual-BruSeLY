@@ -1,0 +1,17 @@
+.shopModal {
+  border-radius: 12px;
+}
+
+
+.shopItem {
+  margin-top: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  flex: 1;
+  min-width: 120px;
+}
+
+.shopItem:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}

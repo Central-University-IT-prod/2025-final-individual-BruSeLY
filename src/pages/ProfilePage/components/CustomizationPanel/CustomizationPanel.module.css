@@ -1,0 +1,44 @@
+.customizationPanel {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 24px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow-x: auto;
+  overflow-y: hidden;
+  backdrop-filter: blur(10px);
+  max-height: 35vh;
+  max-width: 90vw;
+  margin: 0 auto;
+  border-radius: 24px;
+}
+
+.segmentedControl {
+  margin-bottom: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.groupContent {
+  overflow-y: auto;
+  max-height: calc(35vh - 60px);
+}
+
+@media (max-width: 768px) {
+  .customizationPanel {
+    padding: 6px;
+    max-height: 40vh;
+    overflow: hidden;
+  }
+
+  .segmentedControl {
+    font-size: 12px;
+  }
+
+  .customizationPanel {
+    padding: 6px;
+    max-height: 30vh;
+  }
+}
